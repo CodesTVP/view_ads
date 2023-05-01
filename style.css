@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.bg-bluedark {
+    background-color: #021841;
+}
+
+#user-img {
+    border-radius: 50%;
+}
+
+main {
+    height: 100%;
+    overflow: auto;
+}
+
+ul#list-ads li {
+    max-width: 600px;
+    width: 100%;
+}
+
+details {
+    margin-top: 10px;
+}
+
+summary {
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: list-item;
+    cursor: pointer;
+}
